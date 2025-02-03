@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className="min-h-screen bg-gradient-to-r from-purple-900 via-black to-gray-900
         flex flex-col">
-            <div className=" w-full">
+            <div className="z-10 w-full">
        
        <Navbar/>
        </div>

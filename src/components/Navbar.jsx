@@ -12,8 +12,8 @@ const Navbar = () => {
       <nav className="w-full bg-transparent backdrop-blur-md text-white shadow-lg">
         <div className="container mx-auto flex justify-between items-center p-6 md:justify-center w-full">
           {/* Desktop & iPad Menu */}
-          <ul className="hidden md:flex space-x-8 gap-8 text-lg font-semibold">
-            <li className="relative group cursor-pointer transition duration-300">
+          <ul className="hidden md:flex space-x-8 gap-8  text-lg font-semibold">
+            <li className=" relative group cursor-pointer transition duration-300">
               <Link to="/" className="hover:text-yellow-300">
                 Home
               </Link>
@@ -49,8 +49,8 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`fixed top-0 left-0 h-full w-[60%] bg-black bg-opacity-90 transform ${isOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:hidden`}>
-          <ul className="flex flex-col items-start space-y-6 p-6 text-lg font-semibold">
+        <div className={`fixed mt-15 top-0 left-0 h-full w-[30%]  transform ${isOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:hidden`}>
+          <ul className="flex flex-col bg-transparent backdrop-blur-md  items-start space-y-6 p-6 text-lg font-semibold">
             <li className="hover:text-yellow-300 cursor-pointer transition duration-300">
               <Link to="/">Home</Link>
             </li>

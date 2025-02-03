@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-purple-900 via-black to-gray-900 flex flex-col">
       {/* Navbar */}
-      <div className="w-full">
+      <div className="w-full z-10">
         <Navbar />
       </div>
 
@@ -107,7 +107,7 @@ function Home() {
 
           {/* Profile Image with Ellipse Shape */}
           <img
-            src="/src/assets/DP111.png"
+            src="/public/assets/DP111.png"
             alt="Profile"
             className="w-full h-full object-contain rounded-[50%] shadow-2xl border-4 border-gray-700"
             style={{

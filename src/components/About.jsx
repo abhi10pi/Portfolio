@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className="min-h-screen bg-gradient-to-r from-purple-900 via-black to-gray-900
         flex flex-col">
-            <div className=" w-full">
+            <div className=" w-full z-10">
 
                 <Navbar />
             </div>
@@ -34,7 +34,7 @@ const About = () => {
                         >
                             {/* Floating Profile Image */}
                             <motion.img
-                                src="/src/assets/Boy.jpg" // Replace with your animated illustration
+                                src="/public/assets/Boy.jpg" // Replace with your animated illustration
                                 alt="Animated Profile"
                                 className="rounded-full w-full object-cover"
                                 animate={{ y: [0, -10, 0] }}
